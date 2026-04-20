@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.Scanner;
+
 public class stringOperations {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
@@ -14,6 +15,14 @@ public class stringOperations {
             System.out.print(imp[j]+",");
         }
         
+        System.out.println(reveString("Niranjan"));
+    }
+
+    static String reveString(String str){
+        if (str==null || str.isEmpty()){
+            return str;
+        }
+        return reveString(str.substring(1))+str.charAt(0);
     }
 
 }
