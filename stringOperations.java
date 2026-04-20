@@ -13,7 +13,7 @@ public class stringOperations {
         for(int j=0;j<size;j++){
             System.out.print(imp[j]+",");
         }
-        System.out.println("Niranjan learning git commands");
+        
     }
 
 }
