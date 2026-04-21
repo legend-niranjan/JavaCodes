@@ -24,6 +24,6 @@ public class stringOperations {
         }
         return reveString(str.substring(1))+str.charAt(0);
     }
-
+    
 }
 
